@@ -17,6 +17,9 @@
   }
   
   .maincontent {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +76,6 @@
     border-radius: 4px;
   }
   
-  .no-ads {
-    margin-top: 20px;
-    display: flex;
-  }
-  
   .adsBtn {
     background-color: rgb(28, 180, 46);
     padding: 2px 15px;
@@ -85,6 +83,12 @@
     color: white;
     border-radius: 2px;
   }
+  
+  .no-ads {
+    margin-top: 20px;
+    display: flex;
+  }
+
   .note-text {
     color: white;
     font-size: 10px;
